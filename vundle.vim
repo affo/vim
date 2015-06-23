@@ -9,6 +9,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " My Plugins
 Plugin 'scrooloose/nerdtree'
+Plugin 'jiangmiao/auto-pairs'
 
 call vundle#end()
 filetype plugin indent on
