@@ -2,6 +2,7 @@
 source ~/.vim/vundle.vim
 syntax on
 set number
+set noswapfile
 
 inoremap jk <ESC>
 let mapleader = ","
