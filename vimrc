@@ -1,6 +1,7 @@
 " Source Vundle plugins
 source ~/.vim/vundle.vim
 syntax on
+set number
 
 inoremap jk <ESC>
 let mapleader = ","
