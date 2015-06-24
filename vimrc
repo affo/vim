@@ -6,7 +6,7 @@ inoremap jk <ESC>
 let mapleader = ","
 vnoremap . :norm.<CR>
 
-" Arrows are unvimlike 
+" Arrows are unvimlike
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -30,3 +30,10 @@ nmap <silent> <A-Right> :wincmd l<CR>
 " Color scheme
 set background=dark
 colorscheme base16-tomorrow
+
+" Tabs and spaces
+set list
+set listchars=eol:$,tab:>-,trail:~
+set tabstop=4
+set shiftwidth=4
+set expandtab
