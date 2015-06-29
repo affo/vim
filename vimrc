@@ -29,10 +29,6 @@ nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
-" Color scheme
-set background=dark
-colorscheme base16-tomorrow
-
 " Tabs and spaces
 set list
 set listchars=eol:$,tab:>-,trail:~
