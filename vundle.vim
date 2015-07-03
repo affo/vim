@@ -10,6 +10,7 @@ Plugin 'gmarik/Vundle.vim'
 " My Plugins
 Plugin 'scrooloose/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'tpope/vim-surround'
 " Clojure stuff
 Plugin 'guns/vim-clojure-static'
 Plugin 'luochen1990/rainbow'
