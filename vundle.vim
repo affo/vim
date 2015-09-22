@@ -11,6 +11,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-surround'
+Plugin 'chriskempson/base16-vim'
 " Clojure stuff
 Plugin 'guns/vim-clojure-static'
 Plugin 'luochen1990/rainbow'

@@ -36,3 +36,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Colors
+set background=dark
+colorscheme base16-tomorrow
