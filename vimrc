@@ -39,3 +39,9 @@ set expandtab
 " Colors
 set background=dark
 colorscheme base16-tomorrow
+
+" Source local vimrc
+let localvimrc = getcwd() . "/.vimrc"
+if filereadable(localvimrc)
+    exec "source" . localvimrc
+endif
