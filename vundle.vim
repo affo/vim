@@ -13,9 +13,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-surround'
 Plugin 'chriskempson/base16-vim'
 Plugin 'luochen1990/rainbow'
-" please follow installation instruction at:
-" https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64-super-quick-installation
-Plugin 'Valloric/YouCompleteMe'
+
 let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
 
 call vundle#end()
