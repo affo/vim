@@ -24,10 +24,10 @@ nnoremap <leader>nt :NERDTree<CR>
 nnoremap <left> :tabp<CR>
 nnoremap <right> :tabn<CR>
 " ... for windows
-nmap <silent> <A-Up> :wincmd k<CR>
-nmap <silent> <A-Down> :wincmd j<CR>
-nmap <silent> <A-Left> :wincmd h<CR>
-nmap <silent> <A-Right> :wincmd l<CR>
+nnoremap <leader><up> :wincmd k<CR>
+nnoremap <leader><down> :wincmd j<CR>
+nnoremap <leader><left> :wincmd h<CR>
+nnoremap <leader><right> :wincmd l<CR>
 
 " Tabs and spaces
 set list
@@ -38,7 +38,8 @@ set expandtab
 
 " Colors
 set background=dark
-colorscheme base16-tomorrow
+" Uncomment this line to activate base16 colorscheme
+" colorscheme base16-eighties
 
 " Source local vimrc
 let localvimrc = getcwd() . "/.vimrc"
