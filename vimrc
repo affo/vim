@@ -42,7 +42,7 @@ set background=dark
 " colorscheme base16-eighties
 
 " Source local vimrc
-let localvimrc = getcwd() . "/.vimrc"
+let localvimrc = getcwd() . "/.local-vimrc"
 if filereadable(localvimrc)
-    exec "source" . localvimrc
+    exec "source " . localvimrc
 endif
